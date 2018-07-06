@@ -11,7 +11,7 @@ import Header from './src/components/header';
 // what it should look like on the device.
 // JSX: looks like HTML, but still Javascript.
 const App = () => (
-    <Header />
+    <Header headerText={'Albums'} />
 );
 
 // Render it to the device. We have to be very specific as to when to display 
