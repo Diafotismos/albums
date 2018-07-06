@@ -18,7 +18,7 @@ import AlbumList from './src/components/AlbumList';
  * Note: there must always be a single top-level tag. Wrap in a View if necessary.
  */
 const App = () => (
-    <View>
+    <View stlye={{ flex: 1 }}>
         <Header headerText={'Albums'} />
         <AlbumList />
     </View>
