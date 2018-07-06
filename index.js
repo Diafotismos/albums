@@ -1,7 +1,9 @@
 // Import a library to help create a component.
 import React from 'react';
 // The curly braces signify that you don't want the whole library, just what's within.
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+// Don't need .js if javascript file.
+import Header from './src/components/header';
 
 // Create a component. A component is a "thing" that creates content that appears on 
 // the device based on the returned JSX.
@@ -9,7 +11,7 @@ import { Text, AppRegistry } from 'react-native';
 // what it should look like on the device.
 // JSX: looks like HTML, but still Javascript.
 const App = () => (
-    <Text>Some Text</Text>
+    <Header />
 );
 
 // Render it to the device. We have to be very specific as to when to display 
